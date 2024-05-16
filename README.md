@@ -57,24 +57,23 @@ ANALOG SIMULATION WITH SPECTRA:
 
 Starting the simulation environment:
 
-    In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears. Choosing a simulator:
-    In the simulation window (ADE) execute setup – simulator / directory / host.
-    In the choosing simulator form, set the simulator field to specra and click ok.
-    In the simulation window (ADE) execute the setup model libraries. To complete, move the cursor and click ok. Choosing Analysis:
-    Click the choose- Analysis icon in the simulation window (ADE).
-    The choosing analysis form appears.
-    To Setup the transient analysis. a. In the analysis section select tron. b. Set the stop time as 100ns c. Click at the moderate or enabled button and the bottom and then click apply.
-    To set for DC analysis a. In the analysis section select DC. b. Turn on save DC operating point. c. Turn on the component parameters. d. Double click the select Vpulse source or Type V0 (capital V zero). e. Select the DC voltage in the select window parameter and click in the form start and stop voltages are 0 to 1.8. f. Select the enable button and click apply and then click ok.
+1.	In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears. Choosing a simulator:
+2.	In the simulation window (ADE) execute setup – simulator / directory / host.
+3.	In the choosing simulator form, set the simulator field to specra and click ok.
+4.	In the simulation window (ADE) execute the setup model libraries. To complete, move the cursor and click ok. Choosing Analysis:
+5.	Click the choose- Analysis icon in the simulation window (ADE).
+6.	The choosing analysis form appears.
+7.	To Setup the transient analysis. a. In the analysis section select tron. b. Set the stop time as 100ns c. Click at the moderate or enabled button and the bottom and then click apply.
+8.	To set for DC analysis a. In the analysis section select DC. b. Turn on save DC operating point. c. Turn on the component parameters. d. Double click the select Vpulse source or Type V0 (capital V zero). e. Select the DC voltage in the select window parameter and click in the form start and stop voltages are 0 to 1.8. f. Select the enable button and click apply and then click ok.
 
 Selecting output for plotting:
-
-    Execute the o/p’s to be plotted -select on sschematic in the simulation window.
-    Follow the prompt at the bottom. Click on the o/p net vout input vin of the inverter. Press esc with the cursor after selecting.
+1.	Execute the o/p’s to be plotted -select on sschematic in the simulation window.
+2.	Follow the prompt at the bottom. Click on the o/p net vout input vin of the inverter. Press esc with the cursor after selecting.
 
 Running the simulation:
+1.	Execute the simulation Netlist and run in the simulation window to start the simulation on the icon. This will create the netlist as well as run the simulation.
+2.	When the simulation finishes the transient and DC plots automatically will be popped up along with netlist.
 
-    Execute the simulation Netlist and run in the simulation window to start the simulation on the icon. This will create the netlist as well as run the simulation.
-    When the simulation finishes the transient and DC plots automatically will be popped up along with netlist.
 
 ![329845746-0cfb0830-cee0-40e2-ba57-b04aed38a170](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-6/assets/160568677/8e38982e-1231-4e1e-a932-9942bef034ab)
 
